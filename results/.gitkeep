@@ -1,0 +1,2 @@
+# Esta pasta recebe os gráficos gerados automaticamente ao executar o notebook.
+# Os arquivos PNG são criados em ../results/ ao rodar wine_quality_analysis.ipynb.
