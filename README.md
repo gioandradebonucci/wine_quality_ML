@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🍷 Classificação da Qualidade de Vinhos com Machine Learning
 
 **FIAP — POSTECH | Tech Challenge Fase 2**
@@ -200,3 +201,6 @@ Desenvolvido como Tech Challenge Fase 2 — POSTECH FIAP 2026.
 - CHAWLA, N. V. et al. SMOTE: Synthetic Minority Over-sampling Technique. *Journal of Artificial Intelligence Research*, v. 16, p. 321-357, 2002.
 - PEDREGOSA, F. et al. Scikit-learn: Machine Learning in Python. *Journal of Machine Learning Research*, v. 12, p. 2825-2830, 2011.
 - FRIEDMAN, J. H. Greedy function approximation: A gradient boosting machine. *Annals of Statistics*, v. 29, n. 5, p. 1189-1232, 2001.
+=======
+# wine_quality_ML
+>>>>>>> d465d670344247d0186d5f2fa4e7345ca78465d1
