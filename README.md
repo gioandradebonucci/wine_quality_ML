@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🍷 Classificação da Qualidade de Vinhos com Machine Learning
 
 **FIAP — POSTECH | Tech Challenge Fase 2**
@@ -16,20 +15,6 @@ Pipeline completo de Machine Learning para classificação binária da qualidade
 O modelo prevê se um vinho é de **Alta Qualidade** (nota ≥ 7) ou **Baixa/Média Qualidade** (nota < 7) com base em suas características físico-químicas mensuradas durante a produção — sem depender de avaliação sensorial humana.
 
 **Problema de negócio:** a avaliação sensorial de vinhos é subjetiva, lenta e cara. Um modelo preditivo permite antecipar a qualidade durante o processo produtivo, reduzindo rejeições e apoiando decisões de precificação.
-
----
-
-## 🎯 Resultados Principais
-
-| Modelo | F1-Score | PR-AUC | ROC-AUC | Recall | Precision |
-|---|---|---|---|---|---|
-| Logistic Regression | 0,488 | 0,469 | 0,886 | 0,741 | 0,364 |
-| Random Forest | 0,606 | 0,664 | 0,907 | 0,741 | 0,513 |
-| **Gradient Boosting** ✅ | **0,646** | 0,597 | **0,907** | **0,778** | **0,553** |
-
-**Modelo vencedor:** Gradient Boosting com threshold ótimo de **0,55** (F1 = 0,667).
-
-**Features mais importantes:** `alcohol`, `alcohol_density`, `volatile acidity`, `sulphates_log`.
 
 ---
 
@@ -186,21 +171,3 @@ O relatório completo com storytelling da análise, interpretação de negócio 
 3. **Feature engineering** gerou ganhos concretos: `alcohol_density` foi a 2ª feature mais importante no Random Forest
 4. O problema tem componentes **não-lineares** relevantes — justifica RF e GB sobre LR
 5. Com threshold 0,55, o Gradient Boosting atinge F1 = 0,667 e Recall = 0,778
-
----
-
-## 👥 Autores
-
-Desenvolvido como Tech Challenge Fase 2 — POSTECH FIAP 2026.
-
----
-
-## 📚 Referências
-
-- CORTEZ, P. et al. Modeling wine preferences by data mining from physicochemical properties. *Decision Support Systems*, v. 47, n. 4, p. 547-553, 2009.
-- CHAWLA, N. V. et al. SMOTE: Synthetic Minority Over-sampling Technique. *Journal of Artificial Intelligence Research*, v. 16, p. 321-357, 2002.
-- PEDREGOSA, F. et al. Scikit-learn: Machine Learning in Python. *Journal of Machine Learning Research*, v. 12, p. 2825-2830, 2011.
-- FRIEDMAN, J. H. Greedy function approximation: A gradient boosting machine. *Annals of Statistics*, v. 29, n. 5, p. 1189-1232, 2001.
-=======
-# wine_quality_ML
->>>>>>> d465d670344247d0186d5f2fa4e7345ca78465d1
