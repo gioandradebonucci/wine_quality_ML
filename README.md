@@ -4,9 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3%2B-orange)](https://scikit-learn.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
----
+[![YouTube](https://img.shields.io/badge/YouTube-Assistir%20ao%20Vídeo-red?logo=youtube)](https://youtu.be/AbrNGTkxmhg)
 
 ## 📋 Descrição do Projeto
 
